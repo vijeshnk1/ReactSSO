@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import { initialize } from "../test";
 import * as microsoftTeams from "@microsoft/teams-js";
 
 function Configure() {

@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
-import { initialize, ssoDemo } from "../test";
+import { ssoDemo } from "../test";
+import * as microsoftTeams from "@microsoft/teams-js";
 
 function SSODemo() {
   console.log("First Render");

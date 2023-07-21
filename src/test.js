@@ -3,7 +3,6 @@ export function initialize() {
   microsoftTeams.app.initialize((res) => {
     console.log("MICROSOFT INITIALIZED", res);
   });
-  ssoDemo();
 }
 
 export function ssoDemo() {

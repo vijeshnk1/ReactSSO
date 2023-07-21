@@ -1,7 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect } from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import { initialize } from "./test";
 
 function App() {
+  useEffect(() => {
+    initialize();
+  }, []);
   return (
     <div className="App">
       <header className="App-header">

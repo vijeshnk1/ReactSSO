@@ -5,6 +5,7 @@ import Configure from "./components/Configure";
 import SSODemo from "./components/SSODemo";
 
 function App() {
+  console.log("app start >>>>");
   return (
     <div className="App">
       <Routes>
